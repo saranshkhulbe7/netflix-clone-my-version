@@ -70,7 +70,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       //trailer fetching
       async function fetchTrailer(movie_name) {
         const movieUrl =
-          "https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyCpTsHPKsVae4DwsDrFPCA7z3lAhz3MpOY&type=video&videoDefinition=high&q=" +
+          "https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyB4fxFbEZqA9Fc-xBZU_TclTvHDvm21Qic&type=video&videoDefinition=high&q=" +
           movie_name +
           " latest trailer";
         Axios.get(movieUrl).then(function (trailerData) {
